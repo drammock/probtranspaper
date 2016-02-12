@@ -1,0 +1,224 @@
+\relax 
+\bibstyle{plain}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}}
+\citation{Krauwer2003}
+\citation{Berment2004}
+\citation{ipa1993}
+\citation{Schultz2001}
+\citation{Huang2012}
+\citation{Hermansky2000}
+\citation{Stolcke2006}
+\citation{Vesely2012}
+\citation{Morgan95}
+\citation{Dahl2012}
+\citation{Huang2013}
+\citation{Swietojanski2012}
+\citation{Sim2008}
+\citation{Do2012}
+\citation{Scanzio2008}
+\citation{Vesely2012}
+\citation{Huang2013}
+\citation{Mohan2014}
+\citation{Imseng2014}
+\citation{Loof2009}
+\citation{Cetin2008}
+\citation{vesely2013-semi}
+\citation{Vu2011b}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Background}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Existing Approaches to ASR in Under-Resourced Languages}{2}}
+\citation{Schlippe2014}
+\citation{Kanthak2002}
+\citation{Charoenpornsawat06}
+\citation{Gizaw2008}
+\citation{Le2009}
+\citation{Kanthak2002}
+\citation{Ko2014}
+\citation{Elmahdy2012}
+\citation{Tachbelie2014}
+\citation{Jyothi2015interspeech_hindi}
+\citation{JHJ15a}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Mismatched Crowdsourcing}{3}}
+\newlabel{sec:bgmc}{{2.2}{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Mismatched Crowdsourcing: crowd workers on the web are asked to transcribe speech in a language they do not know. Annotation mistakes are modeled by a finite state transducer (FST) model of utterance-language pronunciation variability (reduction and coarticulation), composed with an FST model of non-native speech misperception (mapping utterance-language phones to annotation-language phones), composed with an inverted grapheme-to-phoneme (G2P) transducer.}}{3}}
+\newlabel{fig:h2e_eg2}{{1}{3}}
+\citation{JHJ15a}
+\citation{SBS}
+\citation{Dempster77}
+\citation{Liberto15}
+\citation{ipa1993}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Electrophysiology of Speech Perception}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Mismatch FST model of Hindi transcribed as English.}}{4}}
+\newlabel{fig:channelfst}{{2}{4}}
+\citation{Mangu00}
+\citation{Baker75}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces EEG responses are recorded while listeners hear speech in their native language and an unfamiliar non-native language. For each listener, a bank of distinctive feature classifiers are trained. Those classifiers are then applied to the EEG responses to non-native speech, estimating a listener-language transcription of the non-native speech.}}{5}}
+\newlabel{fig:eeg_paradigm}{{3}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Algorithms for Training ASR Using Probabilistic Transcription}{5}}
+\citation{Dempster77}
+\citation{Shannon49}
+\citation{Mohri2002}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces A probabilistic transcription (PT) is a probability mass function (pmf) over candidate phonetic transcriptions. All PTs considered in this paper can be expressed as confusion networks, thus, as sequential pmfs over the null-augmented space of IPA symbols. In this schematic example, $\epsilon $ is the null symbol, symbols in brackets are IPA, and numbers indicate probabilities.}}{6}}
+\newlabel{fig:pt}{{4}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Maximum Likelihood Training}{6}}
+\newlabel{eq:crossentropy}{{4}{6}}
+\newlabel{eq:loglikelihood}{{5}{6}}
+\newlabel{eq:Qfunction}{{6}{6}}
+\newlabel{eq:LgeQ}{{7}{6}}
+\citation{Juang1990}
+\citation{mohri2008speech}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Segmental Viterbi Training}{7}}
+\citation{gauvain1994maximum}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Deletion edges in the probabilistic transcript (edges with the special null output symbol, $\epsilon $), required special handling in order to use information from a phonotactic language model. As shown, a new type of null symbol, ``\#2'', was invented to represent the input for every PT edge with an $\epsilon $ output (right). Such edges were only allowed to match with state self-loops, newly added to the language model (left) in order to consume such non-events in the transcript.}}{8}}
+\newlabel{fig:liu1}{{5}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Maximum {\em  A Posteriori} Adaptation}{8}}
+\newlabel{sec:adaptation}{{3.3}{8}}
+\citation{gauvain1994maximum}
+\citation{Kaldi2011}
+\citation{mohri2008speech}
+\citation{vesely2013-semi}
+\citation{JHJ15b}
+\newlabel{eq:map}{{15}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Neural Networks}{9}}
+\newlabel{eq:dnn_train}{{17}{9}}
+\newlabel{eq:dnn_dt}{{18}{9}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Algorithms that Induce a Probabilistic Transcription}{9}}
+\citation{vesely2013-semi}
+\citation{vesely2013-semi}
+\citation{vesely2013-semi}
+\citation{vesely2013-semi}
+\citation{vesely2013-semi}
+\citation{JHJ15b}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Schematic of a deep neural network, showing a single softmax layer that computes the posterior probabilities of senones given knowledge of the acoustic features.}}{10}}
+\newlabel{fig:das1}{{6}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Self Training}{10}}
+\newlabel{sec:selftraining}{{4.1}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Mismatched Crowdsourcing}{10}}
+\newlabel{sec:MC}{{4.2}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The self-training method of\nobreakspace  {}\cite  {vesely2013-semi} includes a labeling phase and a learning phase. (a) Labeling phase: an ASR trained on other languages (here Cantonese) is used to compute posterior phone probabilities $\pi (\phi _t^\ell |x^\ell )$ in the test language (here Mandarin). (b) Learning phase: posterior phone probabilities are used as targets for DNN re-training.}}{11}}
+\newlabel{fig:fig_hager}{{7}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces In mismatched crowdsourcing, people who don't speak a language (in this case Swahili) are asked to transcribe it using nonsense syllables in the orthography of their own language (in this case English). There is a great deal of variability in their responses (left), but information about the phonetic content of the speech can be derived by merging the transcripts (top four rows at right) and decoding using a model of non-native speech perception (decoding result in the bottom row at right).}}{11}}
+\newlabel{fig:mc}{{8}{11}}
+\citation{Carmel}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces 1-best probabilistic phone transcription error rates on the development and evaluation sets.}}{12}}
+\newlabel{tab:LPER}{{1}{12}}
+\newlabel{eq:PT}{{19}{12}}
+\citation{Lenzo1995}
+\citation{Jakobson52}
+\citation{Liberto15}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Phone error rates plotted against entropy rate estimates of phone sequences in three different languages.}}{13}}
+\newlabel{fig:listPER}{{9}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Estimating Misperceptions from Electrocortical Responses}{13}}
+\newlabel{sec:eegchanmod}{{4.3}{13}}
+\newlabel{eq:dfdist}{{21}{13}}
+\citation{SBS}
+\citation{MTurk}
+\citation{JHJ15b}
+\citation{JHJ15b}
+\newlabel{eq:eegdist}{{22}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Methods}{14}}
+\newlabel{sec:methods}{{5}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Data}{14}}
+\newlabel{sec:data}{{5.1}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Mismatched Crowdsourcing}{14}}
+\citation{Kachru90}
+\citation{PHOIBLE}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Data statistics for seven SBS languages listing number of phones in the training/development/evaluation sets.}}{15}}
+\newlabel{tab:data}{{2}{15}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Frequency of many-to-one mappings $N_{M2O}(\mathbb  {\Phi })$ between phoneme inventory $\mathbb  {\Phi }$ and the inventory of English. Languages are represented by their ISO 639-3 codes.}}{15}}
+\newlabel{tab:m2o}{{3}{15}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}EEG Recording and Analysis}{15}}
+\newlabel{eq:m2o}{{24}{15}}
+\citation{Luck05}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Consonant phones used in the EEG experiment represented using the IPA. Vertical alignment of cells suggests many-to-one mappings postulated based on distinctive feature values from PHOIBLE.}}{16}}
+\newlabel{tab:eegphones}{{4}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Classifiers were trained to observe EEG signals, and to classify the distinctive features of the phoneme being audited. Equal error rates are shown for English (the language used in training; train and test data did not overlap), Dutch, and Hindi (not used in training).}}{16}}
+\newlabel{fig:eeg_svm_eers}{{10}{16}}
+\citation{Hasegawajohnson15}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Phoneme confusion probabilities between English phonemes (column) and Dutch phonemes (row) using models in which the log probability is proportional to distance between the corresponding distinctive feature vectors. Left: all features have the same weight. Right: feature weights equal negative log error rate of EEG signal classifiers.}}{17}}
+\newlabel{fig:eeg_confusions}{{11}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Phonotactic Language Models}{17}}
+\newlabel{sec:phonotactic}{{5.4}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces A phonotactic language model (a bigram language model over phone sequences) can be trained using text data downloaded from Wikipedia (left), then converted into phone strings in the target language using a simple character-based grapheme-to-phoneme transducer (center). In this example, the target language is Swahili.}}{17}}
+\newlabel{fig:wikitext}{{12}{17}}
+\citation{Lenco15}
+\citation{Elmahdy14}
+\citation{Baayen96}
+\citation{Grezl14}
+\citation{Canavan96}
+\citation{Hasegawajohnson15}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces PER of the 1-best path: a measure of the quality of probabilistic transcriptions acquired from mismatched crowdsourcing. Native transcriptions were available in six languages: Swahili (SW), Dutch (DT), Mandarin (MN), Urdu (UR), Arabic (AR), and Hungarian (HG). Probabilistic transcriptions were decoded using three different methods per language: using a universal phoneme set (tallest bar in each language), using a phoneme set specific to the target language (middle bar in each language), and using a phonotactic language model derived from wikipedia texts (shortest bar in each language).}}{18}}
+\newlabel{fig:pt_decode_per}{{13}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Multilingual Baselines}{18}}
+\newlabel{sec:mlbaseline}{{5.5}{18}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces  PERs of unadapted multilingual systems on the evaluation sets along with monolingual systems. PERs on the development sets are in parentheses.}}{19}}
+\newlabel{tbl:results}{{5}{19}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces  PERs on the evaluation and development sets (latter within parentheses) before and after adaptation with PTs.}}{19}}
+\newlabel{tab:ptresult}{{6}{19}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Experimental Results}{19}}
+\newlabel{sec:results}{{6}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Misperception Transducer Trained Using EEG}{19}}
+\newlabel{ssec:eeg}{{6.1}{19}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}ASR Trained Using Probabilistic Transcriptions}{19}}
+\newlabel{ssec:asr}{{6.2}{19}}
+\citation{Liu15}
+\bibdata{../bib/references,../bib/refs}
+\bibcite{Carmel}{1}
+\bibcite{MTurk}{2}
+\bibcite{Baayen96}{3}
+\bibcite{Baker75}{4}
+\bibcite{Berment2004}{5}
+\bibcite{Canavan96}{6}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusions}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Acknowledgments}{20}}
+\bibcite{Cetin2008}{7}
+\bibcite{Charoenpornsawat06}{8}
+\bibcite{Dahl2012}{9}
+\bibcite{Dempster77}{10}
+\bibcite{Liberto15}{11}
+\bibcite{Do2012}{12}
+\bibcite{Elmahdy2012}{13}
+\bibcite{Elmahdy14}{14}
+\bibcite{gauvain1994maximum}{15}
+\bibcite{Gizaw2008}{16}
+\bibcite{Grezl14}{17}
+\bibcite{Hasegawajohnson15}{18}
+\bibcite{Hermansky2000}{19}
+\bibcite{Huang2013}{20}
+\bibcite{Huang2012}{21}
+\bibcite{Imseng2014}{22}
+\bibcite{ipa1993}{23}
+\bibcite{Jakobson52}{24}
+\bibcite{Juang1990}{25}
+\bibcite{JHJ15a}{26}
+\bibcite{Jyothi2015interspeech_hindi}{27}
+\bibcite{JHJ15b}{28}
+\bibcite{Kachru90}{29}
+\bibcite{Kanthak2002}{30}
+\bibcite{Ko2014}{31}
+\bibcite{Krauwer2003}{32}
+\bibcite{Le2009}{33}
+\bibcite{Lenzo1995}{34}
+\bibcite{Lenco15}{35}
+\bibcite{Liu15}{36}
+\bibcite{Loof2009}{37}
+\bibcite{Luck05}{38}
+\bibcite{Mangu00}{39}
+\bibcite{Mohan2014}{40}
+\bibcite{Mohri2002}{41}
+\bibcite{mohri2008speech}{42}
+\bibcite{PHOIBLE}{43}
+\bibcite{Morgan95}{44}
+\bibcite{Kaldi2011}{45}
+\bibcite{Scanzio2008}{46}
+\bibcite{Schlippe2014}{47}
+\bibcite{Schultz2001}{48}
+\bibcite{Shannon49}{49}
+\bibcite{Sim2008}{50}
+\bibcite{SBS}{51}
+\bibcite{Stolcke2006}{52}
+\bibcite{Swietojanski2012}{53}
+\bibcite{Tachbelie2014}{54}
+\bibcite{vesely2013-semi}{55}
+\bibcite{Vesely2012}{56}
+\bibcite{Vu2011b}{57}

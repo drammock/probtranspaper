@@ -1,0 +1,330 @@
+\begin{thebibliography}{10}
+
+\bibitem{Carmel}
+{Carmel Finite-State Toolkit}.
+\newblock \url{http://www.isi.edu/licensed-sw/carmel/}.
+
+\bibitem{MTurk}
+{Amazon}.
+\newblock {Mechanical Turk}.
+\newblock \url{http://www.mturk.com}.
+
+\bibitem{Baayen96}
+R~Baayen, R~Piepenbrock, and L~Gulikers.
+\newblock {CELEX2}.
+\newblock Technical Report LDC96L14, Linguistic Data Consortium, 1996.
+
+\bibitem{Baker75}
+James Baker.
+\newblock The dragon system --- an overview.
+\newblock {\em {IEEE} Trans. Acoustics, Speech, and Signal Processing},
+  23:24--29, 1975.
+
+\bibitem{Berment2004}
+V.~Berment.
+\newblock {\em M{\'{e}}thodes pour informatiser des language des langues et des
+  groupes de langues peu dot{\'{e}}es}.
+\newblock PhD thesis, J. Fourier University, Grenoble, 2004.
+
+\bibitem{Canavan96}
+Alexandra Canavan and George Zipperlen.
+\newblock {CALLFRIEND} egyptian arabic.
+\newblock Technical Report LDC96S49, Linguistic Data Consortium, 1996.
+
+\bibitem{Cetin2008}
+{\"{O}}zg{\"{u}}r {\,{C}}etin.
+\newblock Unsupervised adaptive speech technology for limited resource
+  languages: A case study for {Tamil}.
+\newblock In {\em Workshop on Spoken Language Technology for Under-Resourced
+  Languages (SLTU)}, Hanoi, Vietnam, 2008.
+
+\bibitem{Charoenpornsawat06}
+P.~Charoenpornsawat, S.~Hewavitharana, and T.~Schultz.
+\newblock Thai grapheme-based speech recognition.
+\newblock In {\em Human Language Technologies Conference (HLT)}, 2006.
+
+\bibitem{Dahl2012}
+George~E. Dahl, Dong Yu, Li~Deng, and Alex Acero.
+\newblock Context-dependent pre-trained deep neural networks for
+  large-vocabulary speech recognition.
+\newblock {\em {IEEE} Trans. Audio, Speech and Language}, 20(1):30--42, 2012.
+
+\bibitem{Dempster77}
+A.~P. Dempster, N.~M. Laird, and D.~B. Rubin.
+\newblock Maximum likelihood from incomplete data via the {EM} algorithm.
+\newblock {\em Journal of the Royal Statistical Society}, 39:1--38, 1977.
+
+\bibitem{Liberto15}
+Giovanni {di Liberto}, James~A. {O'Sullivan}, and Edmund~C. Lalor.
+\newblock Low-frequency cortical entrainment to speech reflects phoneme-level
+  processing.
+\newblock {\em Current Biology}, 25(19):2457--2465, 2015.
+
+\bibitem{Do2012}
+Van~Hai Do, Xiong Xiao, Eng~Siong Chng, and Haizhou Li.
+\newblock Context dependant phone mapping for cross-lingual acoustic modeling.
+\newblock In {\em International Symposium on Chinese Spoken Language Processing
+  (ISCSLP)}, pages 16--19, 2012.
+
+\bibitem{Elmahdy2012}
+Mohamed Elmahdy, Mark Hasegawa-Johnson, and Eiman Mustafawi.
+\newblock Hybrid phonemic and graphemic modeling for arabic speech recognition.
+\newblock {\em International Journal of Computational Linguistics},
+  3(1):88--96, 2012.
+
+\bibitem{Elmahdy14}
+Mohamed Elmahdy, Mark Hasegawa-Johnson, and Eiman Mustafawi.
+\newblock Development of a tv broadcasts speech recognition system for qatari
+  arabic.
+\newblock In {\em The 9th edition of the Language Resources and Evaluation
+  Conference (LREC 2014)}, Reykjavik, Iceland, 2014.
+
+\bibitem{gauvain1994maximum}
+Jean-Luc Gauvain and Chin-Hui Lee.
+\newblock {Maximum a posteriori estimation for multivariate Gaussian mixture
+  observations of Markov chains}.
+\newblock {\em {IEEE} {T}ransactions on Speech and {A}udio {P}rocessing},
+  2(2):291--298, 1994.
+
+\bibitem{Gizaw2008}
+S.~Gizaw.
+\newblock Multiple pronunciation model for {Amharic} speech recognition system.
+\newblock In {\em Workshop on Spoken Language Technology for Under-Resourced
+  Languages (SLTU)}, Hanoi, Vietnam, 2008.
+
+\bibitem{Grezl14}
+Franti{\v{s}}ek Gr{\'{e}}zl, Martin Karafia{\'{a}}t, and Karel Vesel{\'{y}}.
+\newblock Adaptation of multilingual stacked bottle-neck neural network
+  structure for new language.
+\newblock In {\em Proc. {ICASSP}}, pages 7704--7708, 2014.
+
+\bibitem{Hasegawajohnson15}
+Mark Hasegawa-Johnson.
+\newblock {WS15} dictionary data.
+\newblock Downloaded 9/24/2015 from http://isle.illinois.edu/sst/data/dict,
+  2015.
+
+\bibitem{Hermansky2000}
+Hynek Hermansky, Dan Ellis, and Sangita Sharma.
+\newblock Tandem connectionist feature extraction for conversational {HMM}
+  systems.
+\newblock In {\em Proc. ICASSP}, Istanbul, Turkey, 2000.
+
+\bibitem{Huang2013}
+Jui-Ting Huang, Jing Li, Dong Yu, Li~Deng, and Yifan Gong.
+\newblock Cross language knowledge transfer using multilingual deep neural
+  network with shared hidden layers.
+\newblock In {\em Proc. {ICASSP}}, 2013.
+
+\bibitem{Huang2012}
+Po-Sen Huang and Mark Hasegawa-Johnson.
+\newblock Cross-dialectal data transferring for gaussian mixture model training
+  in arabic speech recognition.
+\newblock In {\em International Conference on Arabic Language Processing
+  (CITALA)}, pages 119--122, 2012.
+
+\bibitem{Imseng2014}
+David Imseng, Petr Motlicek, Herv{\'{e}} Bourlard, and Philip~N. Garner.
+\newblock Using out-of-language data to improve an under-resourced speech
+  recognizer.
+\newblock {\em Speech Communication}, 56:142 -- 151, 2014.
+
+\bibitem{ipa1993}
+International Phonetic~Association (IPA).
+\newblock International phonetic alphabet, 1993.
+
+\bibitem{Jakobson52}
+R.~Jakobson, G.~Fant, and M.~Halle.
+\newblock Preliminaries to speech analysis.
+\newblock Technical Report~13, MIT Acoustics Laboratory, 1952.
+
+\bibitem{Juang1990}
+Bing-Hwang Juang and Lawrence Rabiner.
+\newblock The segmental {K}-means algorithm for estimating parameters of hidden
+  {Markov} models.
+\newblock {\em {IEEE} Trans. Acoustics, Speech, and Signal Processing},
+  38(9):1639--1641, 1990.
+
+\bibitem{JHJ15a}
+Preethi Jyothi and Mark Hasegawa-Johnson.
+\newblock Acquiring speech transcriptions using mismatched crowdsourcing.
+\newblock In {\em Proceedings of AAAI}, 2015.
+
+\bibitem{Jyothi2015interspeech_hindi}
+Preethi Jyothi and Mark Hasegawa-Johnson.
+\newblock Improving {Hindi} broadcast {ASR} by adapting the language model and
+  pronunciation model using a priori syntactic and morphophonemic knowledge.
+\newblock In {\em Proc. {Interspeech}}, 2015.
+
+\bibitem{JHJ15b}
+Preethi Jyothi and Mark Hasegawa-Johnson.
+\newblock Transcribing continuous speech using mismatched crowdsourcing.
+\newblock In {\em Proceedings of Interspeech}, 2015.
+
+\bibitem{Kachru90}
+Yamuna Kachru.
+\newblock Hindi-{Urdu}.
+\newblock In Bernard Comrie, editor, {\em The world's major languages}, pages
+  399--416. Oxford University Press, New York, 1990.
+
+\bibitem{Kanthak2002}
+Stephan Kanthak and Hermann Ney.
+\newblock Context-dependent acoustic modeling using graphemes for large
+  vocabulary speech recognition.
+\newblock In {\em Proc. {ICASSP}}, 2002.
+
+\bibitem{Ko2014}
+Tom Ko and Brian Mak.
+\newblock Eigentrigraphemes for under-resourced languages.
+\newblock {\em Speech Communication}, 56:132 -- 141, 2014.
+
+\bibitem{Krauwer2003}
+S.~Krauwer.
+\newblock The basic language resource kit {(BLARK)} as the first milestone for
+  the language resources roadmap.
+\newblock In {\em Proc. International Workshop Speech and Coputer
+  (SPECOM-2003)}, pages 8--15, Moscow, Russia, 2003.
+
+\bibitem{Le2009}
+V.-B. Le and Laurent Besacier.
+\newblock Automatic speech recognition for under-resourced languages:
+  Application to vietnamese.
+\newblock {\em {IEEE} Trans. Audio, Speech and Language}, 17(8):1471--1482,
+  2009.
+
+\bibitem{Lenzo1995}
+Kevin Lenzo.
+\newblock The {CMU} pronouncing dictionary.
+\newblock Downloaded 1/31/2016 from
+  \url{http://www.speech.cs.cmu.edu/cgi-bin/cmudict}, 1995.
+
+\bibitem{Lenco15}
+Kevin Lenzo.
+\newblock The {CMU} pronouncing dictionary.
+\newblock Downloaded 9/24/2015 from
+  http://www.speech.cs.cmu.edu/cgi-bin/cmudict, 2015.
+
+\bibitem{Liu15}
+Chunxi Liu, Preethi Jyothi, Hao Tang, Vimal Manohar, Rose Sloan, Tyler Kekona,
+  Mark Hasegawa-Johnson, and Sanjeev Khudanpur.
+\newblock Adapting {ASR} for under-resourced languages using mismatched
+  transcriptions.
+\newblock In {\em Proc. {ICASSP}}, 2016.
+
+\bibitem{Loof2009}
+Jonas L{\"o}{\"o}f, Christian Gollan, and Hermann Ney.
+\newblock {Cross-language bootstrapping for unsupervised acoustic model
+  training: rapid development of a Polish speech recognition system}.
+\newblock In {\em Proceedings of Interspeech}, 2009.
+
+\bibitem{Luck05}
+Steven~J. Luck.
+\newblock {\em An introduction to the event-related potential technique}.
+\newblock MIT, Cambridge, 2005.
+
+\bibitem{Mangu00}
+L.~Mangu, E.~Brill, and A.~Stolcke.
+\newblock Finding consensus in speech recognition: word error minimization and
+  other applications of confusion networks.
+\newblock {\em Computer, Speech and Language}, 14(4):373--400, 2000.
+
+\bibitem{Mohan2014}
+Aanchan Mohan, Richard Rose, Sina~Hamidi Ghalehjegh, and S.~Umesh.
+\newblock Acoustic modelling for speech recognition in {Indian} languages in an
+  agricultural commodities task domain.
+\newblock {\em Speech Communication}, 56:167 --180, 2014.
+
+\bibitem{Mohri2002}
+Mehryar Mohri, Fernando Pereira, and Michael Riley.
+\newblock Weighted finite-state transducers in speech recognition.
+\newblock {\em Computer Speech and Language}, 16:69--88, 2002.
+
+\bibitem{mohri2008speech}
+Mehryar Mohri, Fernando Pereira, and Michael Riley.
+\newblock Speech recognition with weighted finite-state transducers.
+\newblock In {\em Springer Handbook of Speech Processing}, pages 559--584.
+  Springer, 2008.
+
+\bibitem{PHOIBLE}
+Steven Moran, Daniel~R. McCloy, and Richard~A. Wright.
+\newblock {PHOIBLE}: {Phonetics} {Information} {Base} and {Lexicon} {Online},
+  2013.
+
+\bibitem{Morgan95}
+Nelson Morgan and Herv{\'{e}} Bourlard.
+\newblock Continuous speech recognition.
+\newblock {\em {IEEE} Signal Processing Magazine}, 12(5):25--42, 1995.
+
+\bibitem{Kaldi2011}
+D.~Povey, A.~Ghoshal, et~al.
+\newblock The {K}aldi speech recognition toolkit.
+\newblock {\em Proc. of ASRU}, 2011.
+
+\bibitem{Scanzio2008}
+S.~Scanzio, P.~Laface, L.~Fissore, R.~Gemello, and F.~Mana.
+\newblock On the use of a multilingual neural network front-end.
+\newblock In {\em Proc. {Interspeech}}, pages 2711--2714, 2008.
+
+\bibitem{Schlippe2014}
+Tim Schlippe, Sebastian Ochs, and Tanja Schultz.
+\newblock Web-based tools and methods for rapid pronunciation dictionary
+  creation.
+\newblock {\em Speech Communication}, 56:101 -- 118, 2014.
+
+\bibitem{Schultz2001}
+Tanja Schultz and Alex Waibel.
+\newblock {Experiments on cross-language acoustic modeling}.
+\newblock In {\em INTERSPEECH}, 2001.
+
+\bibitem{Shannon49}
+Claude Shannon and William Weaver.
+\newblock {\em The Mathematical Theory of Communication}.
+\newblock University of Illinois Press, Urbana, 1949.
+
+\bibitem{Sim2008}
+Ke~Chai Sim and Haizhou Li.
+\newblock Context sensitive probabilistic phone mapping model for cross-lingual
+  speech recognition.
+\newblock In {\em Proc. {Interspeech}}, pages 2175--2718, 2008.
+
+\bibitem{SBS}
+{Special Broadcasting Services Australia}.
+\newblock {Podcasts in Your Language}.
+\newblock \url{http://www.sbs.com.au/podcasts/yourlanguage}.
+
+\bibitem{Stolcke2006}
+A.~Stolcke, F.~Grezl, M.-Y. Hwang, X.~Lei, N.~Morgan, and D.~Vergyri.
+\newblock Cross-domain and cross-lingual portability of acoustic features
+  estimated by multilayer perceptrons.
+\newblock In {\em Proc. {ICASSP}}, 2006.
+
+\bibitem{Swietojanski2012}
+P.~Swietojanski, A.~Ghoshal, and S.~Renals.
+\newblock Unsupervised cross-lingual knowledge transfer in {DNN}-based {LVCSR}.
+\newblock In {\em Proc. IEEE Workshop on Spoken Language Technology (SLT)},
+  2012.
+
+\bibitem{Tachbelie2014}
+Martha~Yifiru Tachbelie, Solomon~Teferra Abate, and Laurent Besacier.
+\newblock Using different acoustic, lexical and language modeling units for
+  {ASR} of an under-resourced language -- {Amharic}.
+\newblock {\em Speech Communication}, 56:181 -- 194, 2014.
+
+\bibitem{vesely2013-semi}
+Karel Vesely, Mirko Hannemann, and Lukas Burget.
+\newblock {Semi-supervised training of Deep Neural Networks}.
+\newblock In {\em Proceedings of ASRU}, 2013.
+
+\bibitem{Vesely2012}
+Karel Vesely, Martin Karafi{\'a}t, Frantisek Grezl, Marcel Janda, and Ekaterina
+  Egorova.
+\newblock The language-independent bottleneck features.
+\newblock In {\em Proceedings of SLT}, 2012.
+
+\bibitem{Vu2011b}
+Ngoc~Thang Vu, Franziska Kraus, and Tanja Schultz.
+\newblock {Cross-language bootstrapping based on completely unsupervised
+  training using multilingual A-stabil}.
+\newblock In {\em Proceedings of ICASSP}, 2011.
+
+\end{thebibliography}
