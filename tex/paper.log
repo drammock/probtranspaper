@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  12 FEB 2016 03:32
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (TeX Live 2013) (format=xelatex 2013.5.30)  12 FEB 2016 05:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -696,10 +696,10 @@ File: ../figs/mirbagheri_dist_eeg.png Graphic file (type QTm)
 <use  "../figs/mirbagheri_dist_eeg.png" >) (./s5_methods_phonotactics.tex
 File: ../figs/fig_sloan.png Graphic file (type QTm)
 
-<use  "../figs/fig_sloan.png" > [17]
+<use  "../figs/fig_sloan.png" >
 File: ../figs/sloan2.png Graphic file (type QTm)
  <use  "../figs/sloan2.png" >)
-(./s5_methods_mlbaseline.tex [18]
+(./s5_methods_mlbaseline.tex [17] [18]
 Overfull \hbox (13.51555pt too wide) in paragraph at lines 64--79
  [] 
  []
@@ -709,20 +709,20 @@ Overfull \hbox (18.58997pt too wide) in paragraph at lines 7--21
  [][] 
  []
 
-[19]) (./s6_results_eeg.tex) (./s7_discussion.tex) (./s8_conclusions.tex)
-(./s9_acknowledgments.tex) (./paper.bbl [20]
+[19]) (./s6_results_eeg.tex) (./s7_discussion.tex) (./s8_conclusions.tex
+[20]) (./s9_acknowledgments.tex) (./paper.bbl [21]
 Underfull \hbox (badness 10000) in paragraph at lines 102--106
 []\OT1/cmr/m/n/10 Mark Hasegawa-Johnson.  WS15 dic-tio-nary data.  Down-loaded 
 9/24/2015 from
  []
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 202--206
 []\OT1/cmr/m/n/10 Kevin Lenzo.  The CMU pro-nounc-ing dic-tio-nary.  Down-loade
 d 9/24/2015 from
  []
 
-[22]) [23] (./paper.aux) ) 
+[23]) [24] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
  14021 strings out of 493938
  274957 string characters out of 6148857
@@ -732,4 +732,4 @@ Here is how much of TeX's memory you used:
  1144 hyphenation exceptions out of 8191
  56i,14n,69p,1392b,804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on paper.pdf (23 pages).
+Output written on paper.pdf (24 pages).

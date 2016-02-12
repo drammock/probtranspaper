@@ -124,49 +124,45 @@
 \citation{PHOIBLE}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Data statistics for seven SBS languages listing number of phones in the training/development/evaluation sets.}}{15}}
 \newlabel{tab:data}{{2}{15}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Frequency of many-to-one mappings $N_{M2O}(\mathbb  {\Phi })$ between phoneme inventory $\mathbb  {\Phi }$ and the inventory of English. Languages are represented by their ISO 639-3 codes.}}{15}}
-\newlabel{tab:m2o}{{3}{15}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}EEG Recording and Analysis}{15}}
 \newlabel{eq:m2o}{{24}{15}}
 \citation{Luck05}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Frequency of many-to-one mappings $N_{M2O}(\mathbb  {\Phi })$ between phoneme inventory $\mathbb  {\Phi }$ and the inventory of English. Languages are represented by their ISO 639-3 codes.}}{16}}
+\newlabel{tab:m2o}{{3}{16}}
 \@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Consonant phones used in the EEG experiment represented using the IPA. Vertical alignment of cells suggests many-to-one mappings postulated based on distinctive feature values from PHOIBLE.}}{16}}
 \newlabel{tab:eegphones}{{4}{16}}
 \@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Classifiers were trained to observe EEG signals, and to classify the distinctive features of the phoneme being audited. Equal error rates are shown for English (the language used in training; train and test data did not overlap), Dutch, and Hindi (not used in training).}}{16}}
 \newlabel{fig:eeg_svm_eers}{{10}{16}}
 \citation{Hasegawajohnson15}
-\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Phoneme confusion probabilities between English phonemes (column) and Dutch phonemes (row) using models in which the log probability is proportional to distance between the corresponding distinctive feature vectors. Left: all features have the same weight. Right: feature weights equal negative log error rate of EEG signal classifiers.}}{17}}
-\newlabel{fig:eeg_confusions}{{11}{17}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Phonotactic Language Models}{17}}
-\newlabel{sec:phonotactic}{{5.4}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces A phonotactic language model (a bigram language model over phone sequences) can be trained using text data downloaded from Wikipedia (left), then converted into phone strings in the target language using a simple character-based grapheme-to-phoneme transducer (center). In this example, the target language is Swahili.}}{17}}
-\newlabel{fig:wikitext}{{12}{17}}
 \citation{Lenco15}
 \citation{Elmahdy14}
 \citation{Baayen96}
 \citation{Grezl14}
 \citation{Canavan96}
 \citation{Hasegawajohnson15}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Phoneme confusion probabilities between English phonemes (column) and Dutch phonemes (row) using models in which the log probability is proportional to distance between the corresponding distinctive feature vectors. Left: all features have the same weight. Right: feature weights equal negative log error rate of EEG signal classifiers.}}{17}}
+\newlabel{fig:eeg_confusions}{{11}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Phonotactic Language Models}{17}}
+\newlabel{sec:phonotactic}{{5.4}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Multilingual Baselines}{17}}
+\newlabel{sec:mlbaseline}{{5.5}{17}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces A phonotactic language model (a bigram language model over phone sequences) can be trained using text data downloaded from Wikipedia (left), then converted into phone strings in the target language using a simple character-based grapheme-to-phoneme transducer (center). In this example, the target language is Swahili.}}{18}}
+\newlabel{fig:wikitext}{{12}{18}}
 \@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces PER of the 1-best path: a measure of the quality of probabilistic transcriptions acquired from mismatched crowdsourcing. Native transcriptions were available in six languages: Swahili (SW), Dutch (DT), Mandarin (MN), Urdu (UR), Arabic (AR), and Hungarian (HG). Probabilistic transcriptions were decoded using three different methods per language: using a universal phoneme set (tallest bar in each language), using a phoneme set specific to the target language (middle bar in each language), and using a phonotactic language model derived from wikipedia texts (shortest bar in each language).}}{18}}
 \newlabel{fig:pt_decode_per}{{13}{18}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Multilingual Baselines}{18}}
-\newlabel{sec:mlbaseline}{{5.5}{18}}
 \@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces  PERs of unadapted multilingual systems on the evaluation sets along with monolingual systems. PERs on the development sets are in parentheses.}}{19}}
 \newlabel{tbl:results}{{5}{19}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces  PERs on the evaluation and development sets (latter within parentheses) before and after adaptation with PTs.}}{19}}
-\newlabel{tab:ptresult}{{6}{19}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Experimental Results}{19}}
 \newlabel{sec:results}{{6}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}ASR Trained Using Probabilistic Transcriptions}{19}}
-\newlabel{ssec:asr}{{6.1}{19}}
-\citation{Liu15}
-\bibdata{../bib/references,../bib/refs}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces  Comparison of PERs for probabilistic transcription for the Dutch on the evaluation set using different schemes to compute misperception G2Ps.}}{20}}
-\newlabel{tbl:eegresults}{{7}{20}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces  PERs on the evaluation and development sets (latter within parentheses) before and after adaptation with PTs.}}{20}}
+\newlabel{tab:ptresult}{{6}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}ASR Trained Using Probabilistic Transcriptions}{20}}
+\newlabel{ssec:asr}{{6.1}{20}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Misperception Transducer Trained Using EEG}{20}}
 \newlabel{ssec:eeg}{{6.2}{20}}
 \@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusions}{20}}
-\@writefile{toc}{\contentsline {section}{\numberline {9}Acknowledgments}{20}}
+\citation{Liu15}
+\bibdata{../bib/references,../bib/refs}
 \bibcite{Carmel}{1}
 \bibcite{MTurk}{2}
 \bibcite{Baayen96}{3}
@@ -179,6 +175,10 @@
 \bibcite{Dempster77}{10}
 \bibcite{Liberto15}{11}
 \bibcite{Do2012}{12}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces  Comparison of PERs for probabilistic transcription for the Dutch on the evaluation set using different schemes to compute misperception G2Ps.}}{21}}
+\newlabel{tbl:eegresults}{{7}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Conclusions}{21}}
+\@writefile{toc}{\contentsline {section}{\numberline {9}Acknowledgments}{21}}
 \bibcite{Elmahdy2012}{13}
 \bibcite{Elmahdy14}{14}
 \bibcite{gauvain1994maximum}{15}
