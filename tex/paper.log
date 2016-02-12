@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.5.25)  11 FEB 2016 16:52
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.5.25)  11 FEB 2016 18:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -719,12 +719,17 @@ Overfull \hbox (13.51555pt too wide) in paragraph at lines 64--79
  [] 
  []
 
-) (./s6_results.tex) (./s6_results_eeg.tex) (./s6_results_asr.tex
+) (./s6_results.tex) (./s6_results_asr.tex
 Overfull \hbox (18.58997pt too wide) in paragraph at lines 7--21
  [][] 
  []
 
-[19]) (./s7_discussion.tex) (./s8_conclusions.tex) (./s9_acknowledgments.tex)
+[19]) (./s6_results_eeg.tex
+
+LaTeX Warning: Reference `tbl:eegresults' on page 20 undefined on input line 6.
+
+
+) (./s7_discussion.tex) (./s8_conclusions.tex) (./s9_acknowledgments.tex)
 (./paper.bbl [20]
 Underfull \hbox (badness 10000) in paragraph at lines 102--106
 []\OT1/cmr/m/n/10 Mark Hasegawa-Johnson.  WS15 dic-tio-nary data.  Down-loaded 
@@ -737,12 +742,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--206
 d 9/24/2015 from
  []
 
-[22]) [23] (./paper.aux) ) 
+[22]) [23] (./paper.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 16000 strings out of 493734
- 330595 string characters out of 6146348
+ 16001 strings out of 493734
+ 330611 string characters out of 6146348
  404176 words of memory out of 5000000
- 18885 multiletter control sequences out of 15000+600000
+ 18886 multiletter control sequences out of 15000+600000
  16322 words of font info for 62 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  55i,13n,78p,1392b,902s stack positions out of 5000i,500n,10000p,200000b,80000s
